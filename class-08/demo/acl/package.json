@@ -1,0 +1,22 @@
+{
+  "name": "acl",
+  "version": "1.0.0",
+  "description": "ACL Server Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "start": "node server.js"
+  },
+  "author": "John",
+  "license": "MIT",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.6"
+  }
+}

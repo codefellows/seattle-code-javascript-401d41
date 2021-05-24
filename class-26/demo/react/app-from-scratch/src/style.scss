@@ -1,0 +1,11 @@
+$bgColor: orange;
+
+body {
+  background: $bgColor;
+
+  header {
+    h1 {
+      color: blue;
+    }
+  }
+}

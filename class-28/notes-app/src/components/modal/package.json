@@ -1,0 +1,11 @@
+{
+  "name": "modal",
+  "version": "1.0.0",
+  "description": "<Modal> Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i --verbose --coverage"
+  },
+  "author": "",
+  "license": "ISC"
+}

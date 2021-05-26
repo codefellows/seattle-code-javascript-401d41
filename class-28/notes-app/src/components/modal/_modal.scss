@@ -1,0 +1,70 @@
+.overlay {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+
+    &:after {
+        background: #000;
+        bottom: 0;
+        content: ' ';
+        left: 0;
+        opacity: .5;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    > .modal {
+        background: #fff;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin: auto;
+        padding: 0;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 300px;
+        z-index: 1000;
+
+        .header {
+            align-items: center;
+            background: #ccc;
+            border-bottom: 1px solid #777;
+            display: flex;
+            font-size: 1rem;
+            font-weight: bold;
+            height: 1.5rem;
+            line-height: 1rem;
+
+            .title {
+                color: #000;
+                flex: 1;
+            }
+
+            button {
+                background: inherit;
+                cursor: pointer;
+                display: inline-block;
+                height: 100%;
+                line-height: 100%;
+                text-align: center;
+                width: 2rem;
+
+                &:hover {
+                    background: #000;
+                    color: #fff;
+                }
+            }
+        }
+
+        .content {
+            flex: 1;
+            padding: 25px;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+header {
+  height: $gutter * 3;
+  background: $black;
+
+  h1 {
+    color: $white;
+    font-size: $gutter;
+    float: left;
+    margin: $gutter;
+  }
+
+  li {
+    margin-top: 2.3vw;
+    margin-left: $gutter;
+    display: inline-block;
+
+    a {
+      color: $white;
+    }
+  }
+}
+
+main {
+  width: $site-width;
+  margin: $gutter auto;
+
+  li {
+    background: $black;
+    color: $white;
+    padding: $gutter / 2;
+    margin-bottom: $gutter;
+    border-radius: $round-border;
+  }
+}

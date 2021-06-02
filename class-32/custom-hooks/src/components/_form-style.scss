@@ -1,0 +1,62 @@
+.form-container {
+  margin-bottom: 20px;
+
+  form { 
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  p {
+    margin-left: 8vw;
+    margin-top: $gutter-sm;
+  }
+
+  h3 {
+    background: $black;
+    color: $white;
+    font-family: $font-primary;
+    padding: $gutter-md;
+    font-size: $gutter-md;
+    text-align: center;
+    margin-bottom: $gutter-md;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 50%;
+    display: block;
+    border: solid 1px $black;
+    padding: .5vw 1vw;
+    transition: $transition-sp;
+    margin-bottom: $gutter-sm;
+    &:focus {
+      background: $black;
+      color: $white;
+    }
+  }
+
+  select {
+    display: block;
+    width: 25%;
+  }
+
+  button {
+    border: none;
+    border-radius: $border-radius;
+    margin-top: $gutter-sm;
+    background: $black;
+    color: $white;
+    padding: .5vw 1vw;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    transition: $transition-sp;
+
+    &:hover {
+      background: green;
+    }
+  }
+
+  &:last-child {
+    margin-top: $gutter-lg;
+  }
+}

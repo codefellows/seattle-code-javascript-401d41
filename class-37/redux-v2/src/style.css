@@ -1,0 +1,31 @@
+body {
+  font-family: helvetica;
+  font-size: 24px;
+}
+
+td {
+  border: solid 1px black;
+  padding: 10px;
+}
+
+tr.disabled {
+  background: red;
+}
+
+button {
+  border: none;
+  background: black;
+  padding: 10px 6px;
+  color: white;
+  border-radius: 3px;
+  transition: 350ms all;
+}
+
+button:hover {
+  background: #888;
+}
+
+button.reset-btn {
+  margin-top: 5px;
+  background: green;
+}

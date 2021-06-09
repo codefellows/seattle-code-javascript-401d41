@@ -1,0 +1,9 @@
+input {
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
+input:focus {
+  border: none;
+}
